@@ -1,0 +1,82 @@
+body
+{
+    display:flex ;
+    font-family: 'Trebuchet MS',Helvetica, Arial, sans-serif;
+}
+
+form
+{
+    font-size: 20px;
+    border: 5px solid black;
+    width: 50%;
+    position: relative;
+    padding-left: 20px;
+}
+
+div
+{
+
+    margin-bottom: 30px;
+}
+
+.prenom
+{
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+
+.file
+{
+    padding: 5px;
+    margin-left: 15px;
+}
+
+.radio
+{
+    border: 3px solid grey;
+    border-radius: 5px;
+    width: 45%;
+    padding-left: 15px ;
+}
+
+.domaines
+{
+    border: 3px solid grey;
+    border-radius: 5px;
+    width: 35%;
+    padding: 15px ;
+}
+
+input
+{
+    border: 3px solid grey;
+    border-radius: 5px;
+}
+
+.envoyer
+{
+    padding: 8px;
+    background-color: rgb(55, 124, 55);
+    font-weight: bold;
+    margin-right:20px;
+}
+
+.envoyer:hover
+{
+    text-transform: uppercase;
+    outline: 3px solid lime;
+}
+
+.annuler:hover
+{
+    text-transform: uppercase;
+    outline: 3px solid red;
+}
+
+.annuler
+{
+    padding: 8px;
+    background-color: rgb(236, 65, 65);
+    font-weight: bold;
+}
